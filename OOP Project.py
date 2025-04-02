@@ -16,6 +16,10 @@ class Game(ABC):
     def player_cards():
         pass
 
+    @abstractmethod
+    def dealer_cards():
+        pass
+
 
 class Card:
     def __init__(self, number, suit, color):
